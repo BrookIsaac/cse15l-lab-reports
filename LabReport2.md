@@ -60,16 +60,14 @@ Note: The following is assuming the server has already been started and a port n
     * The strings in `parameters[0]` and `parameters[1]` are split again to distinct the inputs from the variable names 
     (Note: these are seperated by `=`) Now these inputs were used to format the string properly to output `String s`
  ![Image](ChatServerEx2.png)
-    * A lot of the process for this next example was the same as above except the `String s` was updated with the addition of `yash: Uhhh...` also
-    parameters will change according to the query for this example.
-    * One thing to note is that if the query keywords and characters aren't found, whether it's for inputting a user or splitting the inputted query the output
-    of the webpage will be the error message
+    * A lot of the process for this next example was the same as above except the `String s` was updated with the addition of `yash: Uhhh...` also parameters will change according to the query for this example.
+    * One thing to note is that if the query keywords and characters aren't found, whether it's for inputting a user or splitting the inputted query the output of the webpage will be the error message
     
 ## Part 2
 The absolute path to the private key for my SSH key for logging into ieng6: /Users/brookisaac/.ssh/id_rsa and /Users/brookisaac/.ssh/id_rsa.pub
 ![Image](rsa_key.png)
-* As shown above, both keys are under my username, and within the .ssh folder
-* And having this key in my computer allows me to login to my ieng6 account without a password as you will see below...
+    * As shown above, both keys are under my username, and within the .ssh folder
+    * And having this key in my computer allows me to login to my ieng6 account without a password as you will see below...
   ![Image](sshLogin.png)
 
 ## Part 3
