@@ -65,13 +65,13 @@ Note: The following is assuming the server has already been started and a port n
     * One thing to note is that if the query keywords and characters aren't found, whether it's for inputting a user or splitting the inputted query the output
     of the webpage will be the error message
     
-##Part 2
+## Part 2
 The absolute path to the private key for my SSH key for logging into ieng6: /Users/brookisaac/.ssh/id_rsa and /Users/brookisaac/.ssh/id_rsa.pub
 ![Image](rsa_key.png)
 * As shown above, both keys are under my username, and within the .ssh folder
 * And having this key in my computer allows me to login to my ieng6 account without a password as you will see below...
   ![Image](sshLogin.png)
 
-##Part 3
+## Part 3
 I learned how to use ssh to login to local servers that I have access to. I also learned how to run a server in java, and how a query allows you to manipulate what you see on a webpage just through the url. I learned that url are basically treated as strings, and the backslashes and question marks just break up these actions into something that is readable by a program. And I'm generally getting a bit more comfortable navigating the files in my computer.
 
