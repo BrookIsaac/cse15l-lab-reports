@@ -49,11 +49,11 @@ Note: The following is assuming the server has already been started and a port n
 * The handleRequest method is being called here when a url is typed in the entry box
 * In this `String s` already has information stored to it from previous entries of `/add-message` so s before the method is called is equal to...
   
-        ```
+        
         jpolitz: Hello
         yash: How+are+you
         Bob: Wait,+why+don't+you+ever+ask+how+I+am
-        ```
+        
   
 * Now once the method is invoked it goes through the and searches for `/add-message` keyword.
 * If that is found, it ensures the query is in the right format, and then splits the query into two strings. One for the input string, and one for the user. This is what's stored in `parameters`. (Note: these are split by `&` keyword)
