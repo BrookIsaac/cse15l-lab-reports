@@ -1,8 +1,8 @@
 # **Lab Report 2**
 ## Part 1
 Here is the code for my Chat Server:
-
-`import java.io.IOException;
+```
+import java.io.IOException;
 import java.net.URI;
 
 class Handler implements URLHandler {
@@ -44,6 +44,7 @@ class ChatServer {
 
         Server.start(port, new Handler());
     }
-}`
+}
+```
 And here are some of examples of outputs using `/add-message`:
 
