@@ -1,7 +1,7 @@
 # **Lab Report 2**
 ## Part 1
 Here is the code for my Chat Server:
-```
+``` 
 import java.io.IOException;
 import java.net.URI;
 
